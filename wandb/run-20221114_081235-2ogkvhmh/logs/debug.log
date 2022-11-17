@@ -1,0 +1,177 @@
+2022-11-14 08:12:35,198 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,198 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,198 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,198 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,198 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,199 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-2ogkvhmh/logs/debug.log
+2022-11-14 08:12:35,199 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-2ogkvhmh/logs/debug-internal.log
+2022-11-14 08:12:35,199 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,199 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,199 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,214 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,214 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,215 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,215 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,215 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,215 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-1c7t156n/logs/debug.log
+2022-11-14 08:12:35,215 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-1c7t156n/logs/debug-internal.log
+2022-11-14 08:12:35,215 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,215 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,215 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,231 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,231 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,231 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,232 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,232 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,232 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-3lfxuax6/logs/debug.log
+2022-11-14 08:12:35,232 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-3lfxuax6/logs/debug-internal.log
+2022-11-14 08:12:35,232 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,233 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,233 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,250 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,251 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,251 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,251 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,251 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,251 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-165zw005/logs/debug.log
+2022-11-14 08:12:35,252 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-165zw005/logs/debug-internal.log
+2022-11-14 08:12:35,252 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,252 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,252 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,269 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,269 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,269 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,270 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,270 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,270 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-3v803kk6/logs/debug.log
+2022-11-14 08:12:35,270 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-3v803kk6/logs/debug-internal.log
+2022-11-14 08:12:35,270 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,270 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,270 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,287 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,288 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,288 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,288 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,288 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,288 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-11tlf6zl/logs/debug.log
+2022-11-14 08:12:35,289 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-11tlf6zl/logs/debug-internal.log
+2022-11-14 08:12:35,289 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,289 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,289 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,307 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,307 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,307 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,307 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,308 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,308 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-2zqvd2zy/logs/debug.log
+2022-11-14 08:12:35,308 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-2zqvd2zy/logs/debug-internal.log
+2022-11-14 08:12:35,308 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,309 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,309 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,326 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,326 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,326 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,326 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,327 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,327 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-28cai94w/logs/debug.log
+2022-11-14 08:12:35,327 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-28cai94w/logs/debug-internal.log
+2022-11-14 08:12:35,327 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,327 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,328 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,344 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,344 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,345 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,345 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,345 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,345 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-3prr3ops/logs/debug.log
+2022-11-14 08:12:35,346 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-3prr3ops/logs/debug-internal.log
+2022-11-14 08:12:35,346 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,346 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,347 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,382 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,383 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,383 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,383 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,384 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,384 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-3fbd7n9x/logs/debug.log
+2022-11-14 08:12:35,384 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-3fbd7n9x/logs/debug-internal.log
+2022-11-14 08:12:35,385 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,385 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,385 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,405 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,405 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,405 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,406 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,406 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,406 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-1kbk2p16/logs/debug.log
+2022-11-14 08:12:35,407 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-1kbk2p16/logs/debug-internal.log
+2022-11-14 08:12:35,407 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,408 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,408 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,425 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,425 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,425 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,426 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,426 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,426 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-2aemkb8g/logs/debug.log
+2022-11-14 08:12:35,427 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-2aemkb8g/logs/debug-internal.log
+2022-11-14 08:12:35,427 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,427 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,427 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,446 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,447 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,447 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,447 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,448 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,448 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-3tvjjw80/logs/debug.log
+2022-11-14 08:12:35,449 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-3tvjjw80/logs/debug-internal.log
+2022-11-14 08:12:35,449 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,449 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,450 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,466 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,467 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,468 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,468 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,469 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,469 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-378vlym0/logs/debug.log
+2022-11-14 08:12:35,470 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-378vlym0/logs/debug-internal.log
+2022-11-14 08:12:35,471 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,471 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,472 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,492 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,493 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,493 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,493 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,494 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,494 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-19q48pvx/logs/debug.log
+2022-11-14 08:12:35,495 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-19q48pvx/logs/debug-internal.log
+2022-11-14 08:12:35,495 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,496 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,496 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:35,513 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Configure stats pid to 40792
+2022-11-14 08:12:35,514 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 08:12:35,514 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 08:12:35,514 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 08:12:35,515 INFO    MainThread:40792 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 08:12:35,515 INFO    MainThread:40792 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-22nbklvg/logs/debug.log
+2022-11-14 08:12:35,515 INFO    MainThread:40792 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_081235-22nbklvg/logs/debug-internal.log
+2022-11-14 08:12:35,516 INFO    MainThread:40792 [wandb_init.py:init():516] calling init triggers
+2022-11-14 08:12:35,516 INFO    MainThread:40792 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 08:12:35,516 INFO    MainThread:40792 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-11-14 08:12:43,491 WARNING MsgRouterThr:40792 [router.py:message_loop():77] message_loop has been closed

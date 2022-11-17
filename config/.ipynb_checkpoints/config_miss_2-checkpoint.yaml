@@ -1,0 +1,49 @@
+main:
+  omics_file: "data/raw/miss/kirp_sm_miss251_csn.csv"
+  network_file: "data/network/CancerSubnetwork.txt"
+  survival_file: "../data/survival/survival_KIRP.csv"
+  log_save: "./clustering_logs/" 
+  learning_rate: 3e-4
+  num_epochs: 100
+  batch_size: 3
+  num_features: 1
+  out_channels: 1
+  rank: 2
+
+meta:
+  cancer: KIRP
+  omic: SM_miss
+
+model:
+  gmodel: 
+  - L3SGConv
+  - L2SGConv
+  - L3MFConv
+  - L2MFConv
+  - L3CGConv
+  - L2CGConv
+  - L3FeaStConv
+  - L2FeaStConv
+  - L3LEConv
+  - L2LEConv
+  - L3ClusterGCNConv
+  - L2ClusterGCNConv
+  - L3GENConv
+  - L2GENConv
+  - L3PANConv
+  - L2PANConv
+  - L3FiLMConv
+  - L2FiLMConv
+  - L3EGConv
+  - L2EGConv
+  - L3GeneralConv
+  - L2GeneralConv
+  - L3LGConv
+  - L2LGConv
+  - L3GATConv
+  - L2GATConv
+
+
+  optim: ADAM
+  lossfn: focal
+  wandb: EXPERIMENTAL_RUNS_PART2_MISS

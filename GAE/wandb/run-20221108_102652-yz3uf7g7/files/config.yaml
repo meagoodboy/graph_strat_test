@@ -1,0 +1,51 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.17
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.9.13
+    start_time: 1667883412
+    t:
+      1:
+      - 1
+      - 41
+      - 55
+      2:
+      - 1
+      - 41
+      - 55
+      3:
+      - 2
+      4: 3.9.13
+      5: 0.12.17
+      8:
+      - 1
+      - 5
+batch_size:
+  desc: null
+  value: 8
+cancer:
+  desc: null
+  value: KIRP
+data_type:
+  desc: null
+  value: SM
+epochs:
+  desc: null
+  value: 50
+lr:
+  desc: null
+  value: 0.0003
+model_type:
+  desc: null
+  value: L2GCNConv
+optim:
+  desc: null
+  value: ADAM
+save:
+  desc: null
+  value: ./new_res/KIRP/SM/L2GCNConv/ADAM_0.0003/

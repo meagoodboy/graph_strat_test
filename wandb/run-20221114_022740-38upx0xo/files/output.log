@@ -1,0 +1,48 @@
+GAEM(
+  (encoder): L2GCNConv(
+    (conv1): GCNConv(1, 100)
+    (conv2): GCNConv(100, 1)
+    (drop): Dropout(p=0.1, inplace=False)
+  )
+  (node_decoder): L2Linear(
+    (feat_lin): Sequential(
+      (0): Linear(in_features=2291, out_features=2291, bias=True)
+      (1): BatchNorm1d(2291, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU()
+      (3): Linear(in_features=2291, out_features=2291, bias=True)
+    )
+  )
+  (decoder): InnerProductDecoder()
+)
+total parameters in the model :  10506827
+total parameters in the encoder :  301
+total parameters in the node_decoder :  10506526
+total parameters in the decoder :  0
+Epoch :  1  /  1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 94% 63/67 [00:37<00:02,  1.74it/s]
+100% 67/67 [00:39<00:00,  1.70it/s]
+
+
+
+
+
+
+100% 17/17 [00:10<00:00,  1.62it/s]

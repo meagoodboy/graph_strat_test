@@ -1,0 +1,41 @@
+
+Loading the Network :  ../data/network/CancerSubnetwork.txt
+
+100%|██████████| 2291/2291 [00:00<00:00, 2309.66it/s]
+Loaded the Network
+  0%|          | 0/50 [00:00<?, ?it/s]
+Mon Nov  7 23:11:46 2022
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 510.85.02    Driver Version: 510.85.02    CUDA Version: 11.6     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                               |                      |               MIG M. |
+|===============================+======================+======================|
+|   0  NVIDIA GeForce ...  Off  | 00000000:02:00.0 Off |                  N/A |
+| 32%   38C    P2    55W / 250W |   1320MiB / 11264MiB |      3%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
+|   1  NVIDIA GeForce ...  Off  | 00000000:03:00.0 Off |                  N/A |
+| 31%   33C    P8    20W / 250W |      3MiB / 11264MiB |      0%      Default |
+|                               |                      |                  N/A |
++-------------------------------+----------------------+----------------------+
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|    0   N/A  N/A     14902      C   ...a3/envs/pyg/bin/python3.9     1317MiB |
++-----------------------------------------------------------------------------+
+total parameters in the model :  10457
+total parameters in the encoder :  10451
+total parameters in the node_decoder :  6
+total parameters in the decoder :  0
+
+
+
+
+
+
+
+

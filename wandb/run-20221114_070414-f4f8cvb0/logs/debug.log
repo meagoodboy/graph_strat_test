@@ -1,0 +1,32 @@
+2022-11-14 07:04:14,618 INFO    MainThread:18285 [wandb_setup.py:_flush():68] Configure stats pid to 18285
+2022-11-14 07:04:14,618 INFO    MainThread:18285 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/.config/wandb/settings
+2022-11-14 07:04:14,618 INFO    MainThread:18285 [wandb_setup.py:_flush():68] Loading settings from /home2/aswin/gae/new_graph/wandb/settings
+2022-11-14 07:04:14,619 INFO    MainThread:18285 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2022-11-14 07:04:14,619 INFO    MainThread:18285 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'graph_stratification.py', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py'}
+2022-11-14 07:04:14,619 INFO    MainThread:18285 [wandb_init.py:_log_setup():476] Logging user logs to /home2/aswin/gae/new_graph/wandb/run-20221114_070414-f4f8cvb0/logs/debug.log
+2022-11-14 07:04:14,619 INFO    MainThread:18285 [wandb_init.py:_log_setup():477] Logging internal logs to /home2/aswin/gae/new_graph/wandb/run-20221114_070414-f4f8cvb0/logs/debug-internal.log
+2022-11-14 07:04:14,619 INFO    MainThread:18285 [wandb_init.py:init():516] calling init triggers
+2022-11-14 07:04:14,619 INFO    MainThread:18285 [wandb_init.py:init():519] wandb.init called with sweep_config: {}
+config: {}
+2022-11-14 07:04:14,619 INFO    MainThread:18285 [wandb_init.py:init():569] starting backend
+2022-11-14 07:04:14,619 INFO    MainThread:18285 [wandb_init.py:init():573] setting up manager
+2022-11-14 07:04:14,622 INFO    MainThread:18285 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-11-14 07:04:14,623 INFO    MainThread:18285 [wandb_init.py:init():580] backend started and connected
+2022-11-14 07:04:14,627 INFO    MainThread:18285 [wandb_init.py:init():658] updated telemetry
+2022-11-14 07:04:14,628 INFO    MainThread:18285 [wandb_init.py:init():693] communicating run to backend with 60 second timeout
+2022-11-14 07:04:15,476 INFO    MainThread:18285 [wandb_run.py:_on_init():2000] communicating current version
+2022-11-14 07:04:15,637 INFO    MainThread:18285 [wandb_run.py:_on_init():2004] got version response 
+2022-11-14 07:04:15,637 INFO    MainThread:18285 [wandb_init.py:init():728] starting run threads in backend
+2022-11-14 07:04:19,483 INFO    MainThread:18285 [wandb_run.py:_console_start():1980] atexit reg
+2022-11-14 07:04:19,483 INFO    MainThread:18285 [wandb_run.py:_redirect():1838] redirect: SettingsConsole.WRAP_RAW
+2022-11-14 07:04:19,483 INFO    MainThread:18285 [wandb_run.py:_redirect():1903] Wrapping output streams.
+2022-11-14 07:04:19,483 INFO    MainThread:18285 [wandb_run.py:_redirect():1925] Redirects installed.
+2022-11-14 07:04:19,484 INFO    MainThread:18285 [wandb_init.py:init():765] run started, returning control to user process
+2022-11-14 07:04:19,484 INFO    MainThread:18285 [wandb_run.py:_config_callback():1160] config_cb None None {'epochs': 100, 'batch_size': 3, 'lr': 0.0003, 'optim': 'ADAM', 'data_type': 'SM', 'cancer': 'KIRP', 'save': './new_res/KIRP/SM/L2SAGEConv/ADAM_0.0003/', 'model_type': 'L2SAGEConv'}
+2022-11-14 08:25:51,882 INFO    MainThread:18285 [wandb_run.py:_finish():1746] finishing run itsagoodteam/EXPERIMENTAL_RUNS_PART1_SM/f4f8cvb0
+2022-11-14 08:25:51,883 INFO    MainThread:18285 [wandb_run.py:_atexit_cleanup():1949] got exitcode: 0
+2022-11-14 08:25:51,883 INFO    MainThread:18285 [wandb_run.py:_restore():1932] restore
+2022-11-14 08:25:51,884 INFO    MainThread:18285 [wandb_run.py:_restore():1938] restore done
+2022-11-14 08:26:00,022 INFO    MainThread:18285 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-14 08:26:00,023 INFO    MainThread:18285 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-14 08:26:00,033 INFO    MainThread:18285 [wandb_run.py:_footer_sync_info():3333] logging synced files

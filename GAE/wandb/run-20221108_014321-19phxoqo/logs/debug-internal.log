@@ -1,0 +1,516 @@
+2022-11-08 01:43:23,823 INFO    MainThread:6045 [internal.py:wandb_internal():90] W&B internal server running at pid: 6045, started at: 2022-11-08 01:43:23.822882
+2022-11-08 01:43:23,826 INFO    WriterThread:6045 [datastore.py:open_for_write():75] open: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/run-19phxoqo.wandb
+2022-11-08 01:43:23,829 DEBUG   SenderThread:6045 [sender.py:send():232] send: header
+2022-11-08 01:43:23,830 DEBUG   SenderThread:6045 [sender.py:send():232] send: run
+2022-11-08 01:43:24,266 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: check_version
+2022-11-08 01:43:24,281 INFO    SenderThread:6045 [dir_watcher.py:__init__():197] watching files in: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files
+2022-11-08 01:43:24,281 INFO    SenderThread:6045 [sender.py:_start_run_threads():811] run started: 19phxoqo with start time 1667852001
+2022-11-08 01:43:24,282 DEBUG   SenderThread:6045 [sender.py:send():232] send: summary
+2022-11-08 01:43:24,283 INFO    SenderThread:6045 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-11-08 01:43:24,283 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: check_version
+2022-11-08 01:43:24,730 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: run_start
+2022-11-08 01:43:24,745 DEBUG   HandlerThread:6045 [meta.py:__init__():35] meta init
+2022-11-08 01:43:24,745 DEBUG   HandlerThread:6045 [meta.py:__init__():49] meta init done
+2022-11-08 01:43:24,745 DEBUG   HandlerThread:6045 [meta.py:probe():209] probe
+2022-11-08 01:43:24,751 DEBUG   HandlerThread:6045 [git.py:repo():29] git repository is invalid
+2022-11-08 01:43:24,752 DEBUG   HandlerThread:6045 [meta.py:_save_pip():53] save pip
+2022-11-08 01:43:24,753 DEBUG   HandlerThread:6045 [meta.py:_save_pip():67] save pip done
+2022-11-08 01:43:24,753 DEBUG   HandlerThread:6045 [meta.py:_save_conda():74] save conda
+2022-11-08 01:43:25,285 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_created():244] file/dir created: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-summary.json
+2022-11-08 01:43:25,286 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_created():244] file/dir created: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/requirements.txt
+2022-11-08 01:43:25,286 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_created():244] file/dir created: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/conda-environment.yaml
+2022-11-08 01:43:28,966 DEBUG   HandlerThread:6045 [meta.py:_save_conda():84] save conda done
+2022-11-08 01:43:28,966 DEBUG   HandlerThread:6045 [meta.py:probe():247] probe done
+2022-11-08 01:43:28,977 DEBUG   SenderThread:6045 [sender.py:send():232] send: files
+2022-11-08 01:43:28,977 INFO    SenderThread:6045 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-11-08 01:43:28,995 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:43:28,995 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:43:29,001 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: pause
+2022-11-08 01:43:29,001 INFO    HandlerThread:6045 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-11-08 01:43:29,099 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: resume
+2022-11-08 01:43:29,099 INFO    HandlerThread:6045 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-11-08 01:43:29,291 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/conda-environment.yaml
+2022-11-08 01:43:29,291 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_created():244] file/dir created: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:43:29,292 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_created():244] file/dir created: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-metadata.json
+2022-11-08 01:43:29,476 DEBUG   SenderThread:6045 [sender.py:send():232] send: telemetry
+2022-11-08 01:43:29,476 DEBUG   SenderThread:6045 [sender.py:send():232] send: config
+2022-11-08 01:43:29,476 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:43:30,114 INFO    Thread-11 :6045 [upload_job.py:push():132] Uploaded file /tmp/tmpxg9htrqgwandb/n08fae10-wandb-metadata.json
+2022-11-08 01:43:31,293 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:43:31,334 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: pause
+2022-11-08 01:43:31,335 INFO    HandlerThread:6045 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-11-08 01:43:31,406 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: resume
+2022-11-08 01:43:31,406 INFO    HandlerThread:6045 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-11-08 01:43:31,407 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: pause
+2022-11-08 01:43:31,407 INFO    HandlerThread:6045 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-11-08 01:43:31,465 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: resume
+2022-11-08 01:43:31,465 INFO    HandlerThread:6045 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-11-08 01:43:31,466 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: pause
+2022-11-08 01:43:31,466 INFO    HandlerThread:6045 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-11-08 01:43:31,559 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: resume
+2022-11-08 01:43:31,560 INFO    HandlerThread:6045 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-11-08 01:43:31,560 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: pause
+2022-11-08 01:43:31,561 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:43:31,561 INFO    HandlerThread:6045 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-11-08 01:43:31,632 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: resume
+2022-11-08 01:43:31,632 INFO    HandlerThread:6045 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-11-08 01:43:31,633 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:43:31,634 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:43:31,634 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:43:33,296 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:43:34,931 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: pause
+2022-11-08 01:43:34,931 INFO    HandlerThread:6045 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-11-08 01:43:35,047 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: resume
+2022-11-08 01:43:35,048 INFO    HandlerThread:6045 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-11-08 01:43:35,048 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:43:35,283 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: pause
+2022-11-08 01:43:35,283 INFO    HandlerThread:6045 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-11-08 01:43:35,417 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: resume
+2022-11-08 01:43:35,417 INFO    HandlerThread:6045 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-11-08 01:43:35,418 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: pause
+2022-11-08 01:43:35,418 INFO    HandlerThread:6045 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-11-08 01:43:35,482 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: resume
+2022-11-08 01:43:35,482 INFO    HandlerThread:6045 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-11-08 01:43:35,482 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: pause
+2022-11-08 01:43:35,482 INFO    HandlerThread:6045 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-11-08 01:43:35,546 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: resume
+2022-11-08 01:43:35,546 INFO    HandlerThread:6045 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-11-08 01:43:35,546 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: pause
+2022-11-08 01:43:35,546 INFO    HandlerThread:6045 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-11-08 01:43:35,609 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: resume
+2022-11-08 01:43:35,610 INFO    HandlerThread:6045 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-11-08 01:43:35,610 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:43:35,611 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:43:35,612 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:43:35,612 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:43:37,301 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:43:41,305 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:43:44,524 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:43:44,524 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:43:45,309 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:43:49,314 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:43:51,317 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:43:55,321 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/config.yaml
+2022-11-08 01:43:56,322 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:43:59,955 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:43:59,955 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:44:00,327 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:04,235 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:44:04,331 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:06,334 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:10,338 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:12,341 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:15,990 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:44:15,990 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:44:16,350 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:20,355 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:22,357 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:26,362 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:28,364 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:31,441 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:44:31,442 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:44:31,496 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-08 01:44:31,845 DEBUG   SenderThread:6045 [sender.py:send():232] send: history
+2022-11-08 01:44:31,845 DEBUG   SenderThread:6045 [sender.py:send():232] send: summary
+2022-11-08 01:44:31,849 INFO    SenderThread:6045 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-11-08 01:44:32,369 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-summary.json
+2022-11-08 01:44:32,369 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:34,371 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:34,890 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:44:38,376 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:40,378 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:44,383 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:46,918 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:44:46,918 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:44:48,388 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:50,390 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:54,394 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:44:56,397 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:00,401 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:02,366 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:45:02,366 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:45:04,406 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:05,535 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:45:06,408 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:10,413 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:14,417 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:17,802 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:45:17,802 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:45:20,424 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:22,426 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:25,537 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-08 01:45:25,538 DEBUG   SenderThread:6045 [sender.py:send():232] send: history
+2022-11-08 01:45:25,538 DEBUG   SenderThread:6045 [sender.py:send():232] send: summary
+2022-11-08 01:45:25,544 INFO    SenderThread:6045 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-11-08 01:45:26,462 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-summary.json
+2022-11-08 01:45:26,462 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:33,202 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:45:33,203 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:45:33,469 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:35,471 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:36,223 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:45:39,475 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:41,478 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:45,482 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:48,636 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:45:48,637 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:45:49,487 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:51,489 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:55,493 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:45:57,496 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:01,500 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:03,502 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:04,094 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:46:04,095 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:46:06,882 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:46:07,506 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:08,508 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:09,509 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:13,513 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:17,517 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:19,515 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:46:19,516 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:46:19,522 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:19,561 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-08 01:46:20,236 DEBUG   SenderThread:6045 [sender.py:send():232] send: history
+2022-11-08 01:46:20,237 DEBUG   SenderThread:6045 [sender.py:send():232] send: summary
+2022-11-08 01:46:20,238 INFO    SenderThread:6045 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-11-08 01:46:20,522 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-summary.json
+2022-11-08 01:46:21,524 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:25,528 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:29,533 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:31,535 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:35,276 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:46:35,277 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:46:36,540 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:37,534 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:46:38,543 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:42,547 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:46,552 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:48,554 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:50,713 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:46:50,714 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:46:52,559 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:56,564 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:46:58,566 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:02,571 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:03,572 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:04,573 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:06,177 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:47:06,178 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:47:08,196 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:47:08,578 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:12,582 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:14,151 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-08 01:47:14,152 DEBUG   SenderThread:6045 [sender.py:send():232] send: history
+2022-11-08 01:47:14,152 DEBUG   SenderThread:6045 [sender.py:send():232] send: summary
+2022-11-08 01:47:14,154 INFO    SenderThread:6045 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-11-08 01:47:14,584 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-summary.json
+2022-11-08 01:47:14,584 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:15,585 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:16,587 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:20,591 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:21,620 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:47:21,620 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:47:24,595 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:26,598 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:30,603 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:34,607 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:36,610 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:37,050 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:47:37,050 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:47:38,855 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:47:40,613 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:44,617 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:48,621 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:50,624 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:52,708 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:47:52,708 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:47:54,628 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:58,633 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:47:59,635 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:00,636 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:04,640 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:08,114 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:48:08,114 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:48:08,646 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:09,512 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:48:10,648 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:10,716 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-08 01:48:10,717 DEBUG   SenderThread:6045 [sender.py:send():232] send: history
+2022-11-08 01:48:10,718 DEBUG   SenderThread:6045 [sender.py:send():232] send: summary
+2022-11-08 01:48:10,719 INFO    SenderThread:6045 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-11-08 01:48:11,678 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-summary.json
+2022-11-08 01:48:11,679 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:12,680 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:16,685 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:21,690 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:23,639 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:48:23,640 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:48:23,693 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:27,697 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:31,701 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:33,704 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:37,709 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:39,098 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:48:39,098 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:48:39,711 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:40,189 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:48:43,716 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:47,721 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:49,723 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:53,727 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:54,548 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:48:54,548 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:48:54,729 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:55,731 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:48:59,734 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:03,739 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:04,852 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-08 01:49:04,853 DEBUG   SenderThread:6045 [sender.py:send():232] send: history
+2022-11-08 01:49:04,853 DEBUG   SenderThread:6045 [sender.py:send():232] send: summary
+2022-11-08 01:49:04,859 INFO    SenderThread:6045 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-11-08 01:49:05,741 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-summary.json
+2022-11-08 01:49:05,741 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:06,742 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:09,992 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:49:09,993 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:49:10,844 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:49:11,748 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:13,750 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:17,755 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:22,760 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:24,762 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:25,410 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:49:25,410 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:49:28,767 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:30,770 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:34,775 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:36,777 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:40,781 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:40,836 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:49:40,836 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:49:41,503 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:49:44,786 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:46,788 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:48,790 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:52,795 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:56,481 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:49:56,481 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:49:56,799 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:49:59,171 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-08 01:49:59,172 DEBUG   SenderThread:6045 [sender.py:send():232] send: history
+2022-11-08 01:49:59,173 DEBUG   SenderThread:6045 [sender.py:send():232] send: summary
+2022-11-08 01:49:59,174 INFO    SenderThread:6045 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-11-08 01:49:59,867 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-summary.json
+2022-11-08 01:50:00,868 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:04,872 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:08,876 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:11,935 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:50:11,935 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:50:12,314 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:50:12,880 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:14,883 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:18,887 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:22,891 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:24,893 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:27,367 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:50:27,368 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:50:28,898 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:30,900 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:34,904 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:38,909 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:40,912 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:42,809 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:50:42,809 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:50:42,915 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:43,202 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:50:46,919 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:50,924 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:53,451 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: partial_history
+2022-11-08 01:50:53,452 DEBUG   SenderThread:6045 [sender.py:send():232] send: history
+2022-11-08 01:50:53,452 DEBUG   SenderThread:6045 [sender.py:send():232] send: summary
+2022-11-08 01:50:53,458 INFO    SenderThread:6045 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-11-08 01:50:53,927 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-summary.json
+2022-11-08 01:50:54,928 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:50:58,256 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:50:58,257 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:50:59,934 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:03,938 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:07,942 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:11,999 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:13,480 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:51:13,710 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:51:13,710 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:51:14,001 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:18,006 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:22,010 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:26,014 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:28,017 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:29,231 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:51:29,231 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:51:32,021 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:36,026 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:40,031 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:42,033 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:44,129 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:51:44,650 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:51:44,651 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:51:46,037 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:48,040 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:51:49,066 WARNING MainThread:6045 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-11-08 01:51:50,125 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: pause
+2022-11-08 01:51:50,125 INFO    HandlerThread:6045 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-11-08 01:51:50,262 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:51:52,044 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:52:02,423 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: stop_status
+2022-11-08 01:52:02,424 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: stop_status
+2022-11-08 01:52:05,344 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: resume
+2022-11-08 01:52:05,344 INFO    HandlerThread:6045 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-11-08 01:52:05,345 DEBUG   SenderThread:6045 [sender.py:send():232] send: telemetry
+2022-11-08 01:52:05,349 DEBUG   SenderThread:6045 [sender.py:send():232] send: telemetry
+2022-11-08 01:52:05,862 DEBUG   SenderThread:6045 [sender.py:send():232] send: exit
+2022-11-08 01:52:05,862 INFO    SenderThread:6045 [sender.py:send_exit():368] handling exit code: 0
+2022-11-08 01:52:05,863 INFO    SenderThread:6045 [sender.py:send_exit():370] handling runtime: 506
+2022-11-08 01:52:05,866 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:05,867 INFO    SenderThread:6045 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-11-08 01:52:05,868 INFO    SenderThread:6045 [sender.py:send_exit():376] send defer
+2022-11-08 01:52:05,868 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:05,869 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: defer
+2022-11-08 01:52:05,869 INFO    HandlerThread:6045 [handler.py:handle_request_defer():164] handle defer: 0
+2022-11-08 01:52:05,869 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: defer
+2022-11-08 01:52:05,869 INFO    SenderThread:6045 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-11-08 01:52:05,870 INFO    SenderThread:6045 [sender.py:transition_state():389] send defer: 1
+2022-11-08 01:52:05,870 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: defer
+2022-11-08 01:52:05,870 INFO    HandlerThread:6045 [handler.py:handle_request_defer():164] handle defer: 1
+2022-11-08 01:52:05,924 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: defer
+2022-11-08 01:52:05,924 INFO    SenderThread:6045 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-11-08 01:52:05,924 INFO    SenderThread:6045 [sender.py:transition_state():389] send defer: 2
+2022-11-08 01:52:05,925 DEBUG   SenderThread:6045 [sender.py:send():232] send: stats
+2022-11-08 01:52:05,925 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: defer
+2022-11-08 01:52:05,925 INFO    HandlerThread:6045 [handler.py:handle_request_defer():164] handle defer: 2
+2022-11-08 01:52:05,926 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: defer
+2022-11-08 01:52:05,926 INFO    SenderThread:6045 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-11-08 01:52:05,926 INFO    SenderThread:6045 [sender.py:transition_state():389] send defer: 3
+2022-11-08 01:52:05,926 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: defer
+2022-11-08 01:52:05,926 INFO    HandlerThread:6045 [handler.py:handle_request_defer():164] handle defer: 3
+2022-11-08 01:52:05,927 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: defer
+2022-11-08 01:52:05,927 INFO    SenderThread:6045 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-11-08 01:52:05,927 INFO    SenderThread:6045 [sender.py:transition_state():389] send defer: 4
+2022-11-08 01:52:05,927 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: defer
+2022-11-08 01:52:05,927 INFO    HandlerThread:6045 [handler.py:handle_request_defer():164] handle defer: 4
+2022-11-08 01:52:05,928 DEBUG   SenderThread:6045 [sender.py:send():232] send: summary
+2022-11-08 01:52:05,930 INFO    SenderThread:6045 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-11-08 01:52:05,930 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: defer
+2022-11-08 01:52:05,930 INFO    SenderThread:6045 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-11-08 01:52:05,930 INFO    SenderThread:6045 [sender.py:transition_state():389] send defer: 5
+2022-11-08 01:52:05,930 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: defer
+2022-11-08 01:52:05,931 INFO    HandlerThread:6045 [handler.py:handle_request_defer():164] handle defer: 5
+2022-11-08 01:52:05,931 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: defer
+2022-11-08 01:52:05,931 INFO    SenderThread:6045 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-11-08 01:52:05,970 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:06,114 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-summary.json
+2022-11-08 01:52:06,114 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:52:06,649 INFO    SenderThread:6045 [sender.py:transition_state():389] send defer: 6
+2022-11-08 01:52:06,649 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:06,650 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: defer
+2022-11-08 01:52:06,650 INFO    HandlerThread:6045 [handler.py:handle_request_defer():164] handle defer: 6
+2022-11-08 01:52:06,650 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: defer
+2022-11-08 01:52:06,650 INFO    SenderThread:6045 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-11-08 01:52:06,651 INFO    SenderThread:6045 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-11-08 01:52:06,751 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:07,115 INFO    Thread-7  :6045 [dir_watcher.py:_on_file_modified():257] file/dir modified: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/config.yaml
+2022-11-08 01:52:07,116 INFO    SenderThread:6045 [dir_watcher.py:finish():342] scan: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files
+2022-11-08 01:52:07,116 INFO    SenderThread:6045 [dir_watcher.py:finish():356] scan save: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-summary.json wandb-summary.json
+2022-11-08 01:52:07,116 INFO    SenderThread:6045 [dir_watcher.py:finish():356] scan save: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/conda-environment.yaml conda-environment.yaml
+2022-11-08 01:52:07,121 INFO    SenderThread:6045 [dir_watcher.py:finish():356] scan save: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-metadata.json wandb-metadata.json
+2022-11-08 01:52:07,121 INFO    SenderThread:6045 [dir_watcher.py:finish():356] scan save: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/requirements.txt requirements.txt
+2022-11-08 01:52:07,122 INFO    SenderThread:6045 [dir_watcher.py:finish():356] scan save: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/config.yaml config.yaml
+2022-11-08 01:52:07,126 INFO    SenderThread:6045 [dir_watcher.py:finish():356] scan save: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log output.log
+2022-11-08 01:52:07,133 INFO    SenderThread:6045 [sender.py:transition_state():389] send defer: 7
+2022-11-08 01:52:07,134 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:07,138 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: defer
+2022-11-08 01:52:07,138 INFO    HandlerThread:6045 [handler.py:handle_request_defer():164] handle defer: 7
+2022-11-08 01:52:07,139 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: defer
+2022-11-08 01:52:07,139 INFO    SenderThread:6045 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-11-08 01:52:07,139 INFO    SenderThread:6045 [file_pusher.py:finish():145] shutting down file pusher
+2022-11-08 01:52:07,236 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:07,236 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:07,337 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:07,338 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:07,439 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:07,440 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:07,542 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:07,542 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:07,643 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:07,644 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:07,746 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:07,746 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:07,848 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:07,848 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:07,950 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:07,951 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:08,052 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:08,052 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:08,154 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:08,154 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:08,256 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:08,256 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:08,358 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:08,359 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:08,461 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:08,461 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:08,563 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:08,563 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:08,665 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:08,665 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:08,767 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:08,768 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:08,870 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:08,870 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:08,972 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:08,972 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:09,023 INFO    Thread-23 :6045 [upload_job.py:push():132] Uploaded file /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/wandb-summary.json
+2022-11-08 01:52:09,037 INFO    Thread-24 :6045 [upload_job.py:push():132] Uploaded file /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/conda-environment.yaml
+2022-11-08 01:52:09,042 INFO    Thread-26 :6045 [upload_job.py:push():132] Uploaded file /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/config.yaml
+2022-11-08 01:52:09,072 INFO    Thread-25 :6045 [upload_job.py:push():132] Uploaded file /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/requirements.txt
+2022-11-08 01:52:09,074 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:09,075 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:09,177 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:09,177 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:09,273 INFO    Thread-27 :6045 [upload_job.py:push():132] Uploaded file /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/files/output.log
+2022-11-08 01:52:09,279 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:09,279 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:09,381 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:09,382 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:09,473 INFO    Thread-6  :6045 [sender.py:transition_state():389] send defer: 8
+2022-11-08 01:52:09,474 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: defer
+2022-11-08 01:52:09,474 INFO    HandlerThread:6045 [handler.py:handle_request_defer():164] handle defer: 8
+2022-11-08 01:52:09,474 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: defer
+2022-11-08 01:52:09,475 INFO    SenderThread:6045 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-11-08 01:52:09,484 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:10,379 INFO    SenderThread:6045 [sender.py:transition_state():389] send defer: 9
+2022-11-08 01:52:10,380 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:10,380 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: defer
+2022-11-08 01:52:10,381 INFO    HandlerThread:6045 [handler.py:handle_request_defer():164] handle defer: 9
+2022-11-08 01:52:10,381 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: defer
+2022-11-08 01:52:10,381 INFO    SenderThread:6045 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-11-08 01:52:10,381 INFO    SenderThread:6045 [sender.py:transition_state():389] send defer: 10
+2022-11-08 01:52:10,382 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: defer
+2022-11-08 01:52:10,382 DEBUG   SenderThread:6045 [sender.py:send():232] send: final
+2022-11-08 01:52:10,383 INFO    HandlerThread:6045 [handler.py:handle_request_defer():164] handle defer: 10
+2022-11-08 01:52:10,383 DEBUG   SenderThread:6045 [sender.py:send():232] send: footer
+2022-11-08 01:52:10,383 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: defer
+2022-11-08 01:52:10,383 INFO    SenderThread:6045 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-11-08 01:52:10,482 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: poll_exit
+2022-11-08 01:52:10,482 DEBUG   SenderThread:6045 [sender.py:send_request():246] send_request: poll_exit
+2022-11-08 01:52:10,483 INFO    SenderThread:6045 [file_pusher.py:join():150] waiting for file pusher
+2022-11-08 01:52:11,373 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: sampled_history
+2022-11-08 01:52:11,375 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: get_summary
+2022-11-08 01:52:11,376 DEBUG   HandlerThread:6045 [handler.py:handle_request():141] handle_request: shutdown
+2022-11-08 01:52:11,376 INFO    HandlerThread:6045 [handler.py:finish():806] shutting down handler
+2022-11-08 01:52:11,383 INFO    WriterThread:6045 [datastore.py:close():279] close: /home2/aswin/gae/new_algo/GAE/wandb/run-20221108_014321-19phxoqo/run-19phxoqo.wandb
+2022-11-08 01:52:12,271 INFO    SenderThread:6045 [sender.py:finish():1110] shutting down sender
+2022-11-08 01:52:12,271 INFO    SenderThread:6045 [file_pusher.py:finish():145] shutting down file pusher
+2022-11-08 01:52:12,271 INFO    SenderThread:6045 [file_pusher.py:join():150] waiting for file pusher
+2022-11-08 01:52:12,275 INFO    MainThread:6045 [internal.py:handle_exit():80] Internal process exited

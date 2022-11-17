@@ -1,0 +1,241 @@
+{
+    "os": "Linux-4.15.0-189-generic-x86_64-with-glibc2.27",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-11-15T22:04:16.149753",
+    "startedAt": "2022-11-15T22:04:14.904782",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "./config/config_sm_2.yaml"
+    ],
+    "state": "running",
+    "program": "/home2/aswin/gae/new_graph/graph_stratification.py",
+    "codePath": "graph_stratification.py",
+    "host": "gnode025",
+    "username": "aswin",
+    "executable": "/home2/aswin/miniconda3/envs/pyg/bin/python3",
+    "cpu_count": 20,
+    "cpu_count_logical": 40,
+    "cpu_freq": {
+        "current": 1586.27185,
+        "min": 1200.0,
+        "max": 3400.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1298.184,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1299.902,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2018.259,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.106,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.044,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.521,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.663,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.664,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1659.555,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 3195.267,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1380.285,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1303.816,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1201.331,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1203.469,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1203.408,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2922.871,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 3356.41,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1203.492,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.355,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1202.78,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1208.567,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1301.297,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1853.439,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1201.219,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1201.084,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1201.49,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1201.566,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1201.22,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1577.655,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2757.675,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1396.449,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1300.805,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1201.065,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1199.919,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.044,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2260.192,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 2998.414,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.587,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.18,
+            "min": 1200.0,
+            "max": 3400.0
+        },
+        {
+            "current": 1200.717,
+            "min": 1200.0,
+            "max": 3400.0
+        }
+    ],
+    "disk": {
+        "total": 136.48257064819336,
+        "used": 69.02166748046875
+    },
+    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 125.78699111938477
+    }
+}

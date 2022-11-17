@@ -1,0 +1,89 @@
+GAEM(
+  (encoder): L3CGConv(
+    (conv1): CGConv(1, dim=1)
+    (conv2): CGConv(1, dim=1)
+    (conv3): CGConv(1, dim=1)
+    (drop): Dropout(p=0.1, inplace=False)
+  )
+  (node_decoder): L2Linear(
+    (feat_lin): Sequential(
+      (0): Linear(in_features=2291, out_features=2291, bias=True)
+      (1): BatchNorm1d(2291, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (2): ReLU()
+      (3): Linear(in_features=2291, out_features=2291, bias=True)
+    )
+  )
+  (decoder): InnerProductDecoder()
+)
+total parameters in the model :  10506550
+total parameters in the encoder :  24
+total parameters in the node_decoder :  10506526
+total parameters in the decoder :  0
+Epoch :  1  /  100
+error in gmodel :  L3CGConv
+mat1 and mat2 shapes cannot be multiplied (613359x2 and 3x1)
+error in gmodel :  L2CGConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L2CGConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L3FeaStConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L3FeaStConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L2FeaStConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L2FeaStConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L3LEConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L3LEConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L2LEConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L2LEConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L3ClusterGCNConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L3ClusterGCNConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L2ClusterGCNConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L2ClusterGCNConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L3GENConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L3GENConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L2GENConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L2GENConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L3PANConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L3PANConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L2PANConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L2PANConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L3FiLMConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L3FiLMConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L2FiLMConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L2FiLMConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L3EGConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L3EGConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L2EGConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L2EGConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L3GeneralConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L3GeneralConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L2GeneralConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L2GeneralConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L3LGConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L3LGConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L2LGConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L2LGConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L3GATConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L3GATConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+error in gmodel :  L2GATConv
+Attempted to change value of key "save" from ./new_res/KIRP/SM_miss/L3CGConv/ADAM_0.0003/ to ./new_res/KIRP/SM_miss/L2GATConv/ADAM_0.0003/
+If you really want to do this, pass allow_val_change=True to config.update()
+Done
+  0%|          | 0/67 [00:00<?, ?it/s]

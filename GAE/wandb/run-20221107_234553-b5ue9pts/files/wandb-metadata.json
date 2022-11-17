@@ -1,0 +1,18 @@
+{
+    "os": "Linux-4.15.0-189-generic-x86_64-with-glibc2.27",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-11-07T18:15:55.766599",
+    "startedAt": "2022-11-07T18:15:53.088279",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 2,
+    "cpu_count": 40,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "new_algo/GAE/graphautoencoder-Copy1.ipynb",
+    "root": "/home2/aswin/gae",
+    "host": "gnode053",
+    "username": "aswin",
+    "executable": "/home2/aswin/miniconda3/envs/pyg/bin/python3.9"
+}

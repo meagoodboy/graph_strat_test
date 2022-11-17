@@ -1,0 +1,173 @@
+2022-11-14 08:12:27,258 INFO    StreamThr :40834 [internal.py:wandb_internal():88] W&B internal server running at pid: 40834, started at: 2022-11-14 08:12:27.257044
+2022-11-14 08:12:27,259 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: status
+2022-11-14 08:12:27,262 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: status
+2022-11-14 08:12:27,263 DEBUG   SenderThread:40834 [sender.py:send():303] send: header
+2022-11-14 08:12:27,263 INFO    WriterThread:40834 [datastore.py:open_for_write():75] open: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/run-2je85v0j.wandb
+2022-11-14 08:12:27,264 DEBUG   SenderThread:40834 [sender.py:send():303] send: run
+2022-11-14 08:12:28,067 INFO    SenderThread:40834 [dir_watcher.py:__init__():216] watching files in: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files
+2022-11-14 08:12:28,067 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: check_version
+2022-11-14 08:12:28,068 INFO    SenderThread:40834 [sender.py:_start_run_threads():928] run started: 2je85v0j with start time 1668393747.257144
+2022-11-14 08:12:28,068 DEBUG   SenderThread:40834 [sender.py:send():303] send: summary
+2022-11-14 08:12:28,069 INFO    SenderThread:40834 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-14 08:12:28,070 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: check_version
+2022-11-14 08:12:28,488 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: run_start
+2022-11-14 08:12:28,493 DEBUG   HandlerThread:40834 [system_info.py:__init__():31] System info init
+2022-11-14 08:12:28,493 DEBUG   HandlerThread:40834 [system_info.py:__init__():46] System info init done
+2022-11-14 08:12:28,494 INFO    HandlerThread:40834 [system_monitor.py:start():150] Starting system monitor
+2022-11-14 08:12:28,494 INFO    SystemMonitor:40834 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-11-14 08:12:28,494 INFO    HandlerThread:40834 [system_monitor.py:probe():168] Collecting system info
+2022-11-14 08:12:28,495 INFO    SystemMonitor:40834 [interfaces.py:start():168] Started cpu
+2022-11-14 08:12:28,496 INFO    SystemMonitor:40834 [interfaces.py:start():168] Started disk
+2022-11-14 08:12:28,498 INFO    SystemMonitor:40834 [interfaces.py:start():168] Started gpu
+2022-11-14 08:12:28,499 INFO    SystemMonitor:40834 [interfaces.py:start():168] Started memory
+2022-11-14 08:12:28,500 INFO    SystemMonitor:40834 [interfaces.py:start():168] Started network
+2022-11-14 08:12:28,542 DEBUG   HandlerThread:40834 [system_info.py:probe():195] Probing system
+2022-11-14 08:12:28,543 DEBUG   HandlerThread:40834 [git.py:repo():40] git repository is invalid
+2022-11-14 08:12:28,543 DEBUG   HandlerThread:40834 [system_info.py:probe():241] Probing system done
+2022-11-14 08:12:28,543 DEBUG   HandlerThread:40834 [system_monitor.py:probe():177] {'os': 'Linux-4.15.0-189-generic-x86_64-with-glibc2.27', 'python': '3.9.13', 'heartbeatAt': '2022-11-14T02:42:28.542997', 'startedAt': '2022-11-14T02:42:27.206901', 'docker': None, 'cuda': None, 'args': ('./config/config_sm_2.yaml',), 'state': 'running', 'program': '/home2/aswin/gae/new_graph/graph_stratification.py', 'codePath': 'graph_stratification.py', 'host': 'gnode044', 'username': 'aswin', 'executable': '/home2/aswin/miniconda3/envs/pyg/bin/python3', 'cpu_count': 20, 'cpu_count_logical': 40, 'cpu_freq': {'current': 1271.9101750000002, 'min': 1200.0, 'max': 3400.0}, 'cpu_freq_per_core': [{'current': 1269.647, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.819, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.986, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.942, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.624, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.598, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.952, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.748, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.76, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.75, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.533, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.895, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.588, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.092, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.658, 'min': 1200.0, 'max': 3400.0}, {'current': 2181.027, 'min': 1200.0, 'max': 3400.0}, {'current': 1258.489, 'min': 1200.0, 'max': 3400.0}, {'current': 1488.904, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.903, 'min': 1200.0, 'max': 3400.0}, {'current': 1202.591, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.369, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.336, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.113, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.504, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.615, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.117, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.468, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.851, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.456, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.893, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.183, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.99, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.144, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.107, 'min': 1200.0, 'max': 3400.0}, {'current': 1200.004, 'min': 1200.0, 'max': 3400.0}, {'current': 2147.015, 'min': 1200.0, 'max': 3400.0}, {'current': 1266.131, 'min': 1200.0, 'max': 3400.0}, {'current': 1429.126, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.495, 'min': 1200.0, 'max': 3400.0}, {'current': 1201.23, 'min': 1200.0, 'max': 3400.0}], 'disk': {'total': 219.00129318237305, 'used': 69.10110092163086}, 'gpu': 'NVIDIA GeForce RTX 2080 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 2080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 125.78213500976562}}
+2022-11-14 08:12:28,544 INFO    HandlerThread:40834 [system_monitor.py:probe():178] Finished collecting system info
+2022-11-14 08:12:28,544 INFO    HandlerThread:40834 [system_monitor.py:probe():181] Publishing system info
+2022-11-14 08:12:28,544 DEBUG   HandlerThread:40834 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-11-14 08:12:28,545 DEBUG   HandlerThread:40834 [system_info.py:_save_pip():67] Saving pip packages done
+2022-11-14 08:12:28,546 DEBUG   HandlerThread:40834 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-11-14 08:12:29,071 INFO    Thread-85 :40834 [dir_watcher.py:_on_file_created():275] file/dir created: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/conda-environment.yaml
+2022-11-14 08:12:29,072 INFO    Thread-85 :40834 [dir_watcher.py:_on_file_created():275] file/dir created: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/wandb-summary.json
+2022-11-14 08:12:29,073 INFO    Thread-85 :40834 [dir_watcher.py:_on_file_created():275] file/dir created: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/requirements.txt
+2022-11-14 08:12:33,922 DEBUG   HandlerThread:40834 [system_info.py:_save_conda():86] Saving conda packages done
+2022-11-14 08:12:33,924 INFO    HandlerThread:40834 [system_monitor.py:probe():183] Finished publishing system info
+2022-11-14 08:12:33,925 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: stop_status
+2022-11-14 08:12:33,927 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: stop_status
+2022-11-14 08:12:34,076 INFO    Thread-85 :40834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/conda-environment.yaml
+2022-11-14 08:12:34,076 INFO    Thread-85 :40834 [dir_watcher.py:_on_file_created():275] file/dir created: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/wandb-metadata.json
+2022-11-14 08:12:34,306 DEBUG   SenderThread:40834 [sender.py:send():303] send: telemetry
+2022-11-14 08:12:34,306 DEBUG   SenderThread:40834 [sender.py:send():303] send: config
+2022-11-14 08:12:34,335 DEBUG   SenderThread:40834 [sender.py:send():303] send: files
+2022-11-14 08:12:34,335 INFO    SenderThread:40834 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-11-14 08:12:35,070 DEBUG   SenderThread:40834 [sender.py:send():303] send: telemetry
+2022-11-14 08:12:35,077 INFO    Thread-85 :40834 [dir_watcher.py:_on_file_created():275] file/dir created: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/output.log
+2022-11-14 08:12:35,521 DEBUG   SenderThread:40834 [sender.py:send():303] send: exit
+2022-11-14 08:12:35,522 INFO    SenderThread:40834 [sender.py:send_exit():442] handling exit code: 0
+2022-11-14 08:12:35,522 INFO    SenderThread:40834 [sender.py:send_exit():444] handling runtime: 7
+2022-11-14 08:12:35,526 INFO    SenderThread:40834 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-14 08:12:35,527 INFO    SenderThread:40834 [sender.py:send_exit():450] send defer
+2022-11-14 08:12:35,528 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 08:12:35,528 INFO    HandlerThread:40834 [handler.py:handle_request_defer():162] handle defer: 0
+2022-11-14 08:12:35,528 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: defer
+2022-11-14 08:12:35,529 INFO    SenderThread:40834 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-11-14 08:12:35,529 INFO    SenderThread:40834 [sender.py:transition_state():463] send defer: 1
+2022-11-14 08:12:35,529 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 08:12:35,530 INFO    HandlerThread:40834 [handler.py:handle_request_defer():162] handle defer: 1
+2022-11-14 08:12:35,530 INFO    HandlerThread:40834 [system_monitor.py:finish():160] Stopping system monitor
+2022-11-14 08:12:35,530 DEBUG   SystemMonitor:40834 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-11-14 08:12:35,531 DEBUG   SystemMonitor:40834 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-11-14 08:12:35,532 INFO    HandlerThread:40834 [interfaces.py:finish():173] Joined cpu
+2022-11-14 08:12:35,532 DEBUG   SystemMonitor:40834 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-11-14 08:12:35,533 INFO    HandlerThread:40834 [interfaces.py:finish():173] Joined disk
+2022-11-14 08:12:35,563 INFO    Thread-88 :40834 [upload_job.py:push():143] Uploaded file /tmp/tmp14yw5u9pwandb/3jr5qrj8-wandb-metadata.json
+2022-11-14 08:12:35,584 INFO    HandlerThread:40834 [interfaces.py:finish():173] Joined gpu
+2022-11-14 08:12:35,584 INFO    HandlerThread:40834 [interfaces.py:finish():173] Joined memory
+2022-11-14 08:12:35,584 INFO    HandlerThread:40834 [interfaces.py:finish():173] Joined network
+2022-11-14 08:12:35,584 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: defer
+2022-11-14 08:12:35,585 INFO    SenderThread:40834 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-11-14 08:12:35,585 INFO    SenderThread:40834 [sender.py:transition_state():463] send defer: 2
+2022-11-14 08:12:35,585 DEBUG   SenderThread:40834 [sender.py:send():303] send: stats
+2022-11-14 08:12:35,586 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 08:12:35,587 INFO    HandlerThread:40834 [handler.py:handle_request_defer():162] handle defer: 2
+2022-11-14 08:12:35,587 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: defer
+2022-11-14 08:12:35,587 INFO    SenderThread:40834 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-11-14 08:12:35,587 INFO    SenderThread:40834 [sender.py:transition_state():463] send defer: 3
+2022-11-14 08:12:35,588 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 08:12:35,588 INFO    HandlerThread:40834 [handler.py:handle_request_defer():162] handle defer: 3
+2022-11-14 08:12:35,588 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: defer
+2022-11-14 08:12:35,589 INFO    SenderThread:40834 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-11-14 08:12:35,589 INFO    SenderThread:40834 [sender.py:transition_state():463] send defer: 4
+2022-11-14 08:12:35,589 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 08:12:35,589 INFO    HandlerThread:40834 [handler.py:handle_request_defer():162] handle defer: 4
+2022-11-14 08:12:35,590 DEBUG   SenderThread:40834 [sender.py:send():303] send: summary
+2022-11-14 08:12:35,591 INFO    SenderThread:40834 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-11-14 08:12:35,592 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: defer
+2022-11-14 08:12:35,592 INFO    SenderThread:40834 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-11-14 08:12:35,593 INFO    SenderThread:40834 [sender.py:transition_state():463] send defer: 5
+2022-11-14 08:12:35,593 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 08:12:35,593 INFO    HandlerThread:40834 [handler.py:handle_request_defer():162] handle defer: 5
+2022-11-14 08:12:35,593 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: defer
+2022-11-14 08:12:35,594 INFO    SenderThread:40834 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-11-14 08:12:35,999 INFO    SenderThread:40834 [sender.py:transition_state():463] send defer: 6
+2022-11-14 08:12:35,999 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 08:12:36,000 INFO    HandlerThread:40834 [handler.py:handle_request_defer():162] handle defer: 6
+2022-11-14 08:12:36,000 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: defer
+2022-11-14 08:12:36,000 INFO    SenderThread:40834 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-11-14 08:12:36,078 INFO    Thread-85 :40834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/config.yaml
+2022-11-14 08:12:36,078 INFO    Thread-85 :40834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/wandb-summary.json
+2022-11-14 08:12:36,522 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-14 08:12:37,080 INFO    Thread-85 :40834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/output.log
+2022-11-14 08:12:38,341 INFO    SenderThread:40834 [sender.py:transition_state():463] send defer: 7
+2022-11-14 08:12:38,342 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: poll_exit
+2022-11-14 08:12:38,342 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 08:12:38,343 INFO    HandlerThread:40834 [handler.py:handle_request_defer():162] handle defer: 7
+2022-11-14 08:12:38,344 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: defer
+2022-11-14 08:12:38,344 INFO    SenderThread:40834 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-11-14 08:12:38,344 INFO    SenderThread:40834 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-11-14 08:12:39,082 INFO    SenderThread:40834 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/output.log
+2022-11-14 08:12:39,082 INFO    SenderThread:40834 [dir_watcher.py:finish():392] scan: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files
+2022-11-14 08:12:39,083 INFO    SenderThread:40834 [dir_watcher.py:finish():406] scan save: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/wandb-summary.json wandb-summary.json
+2022-11-14 08:12:39,083 INFO    SenderThread:40834 [dir_watcher.py:finish():406] scan save: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/conda-environment.yaml conda-environment.yaml
+2022-11-14 08:12:39,090 INFO    SenderThread:40834 [dir_watcher.py:finish():406] scan save: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/wandb-metadata.json wandb-metadata.json
+2022-11-14 08:12:39,095 INFO    SenderThread:40834 [dir_watcher.py:finish():406] scan save: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/requirements.txt requirements.txt
+2022-11-14 08:12:39,097 INFO    SenderThread:40834 [dir_watcher.py:finish():406] scan save: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/config.yaml config.yaml
+2022-11-14 08:12:39,104 INFO    SenderThread:40834 [dir_watcher.py:finish():406] scan save: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/output.log output.log
+2022-11-14 08:12:39,111 INFO    SenderThread:40834 [sender.py:transition_state():463] send defer: 8
+2022-11-14 08:12:39,117 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 08:12:39,117 INFO    HandlerThread:40834 [handler.py:handle_request_defer():162] handle defer: 8
+2022-11-14 08:12:39,117 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: defer
+2022-11-14 08:12:39,118 INFO    SenderThread:40834 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-11-14 08:12:39,118 INFO    SenderThread:40834 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-14 08:12:40,994 INFO    Thread-89 :40834 [upload_job.py:push():143] Uploaded file /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/wandb-summary.json
+2022-11-14 08:12:41,033 INFO    Thread-91 :40834 [upload_job.py:push():143] Uploaded file /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/requirements.txt
+2022-11-14 08:12:41,052 INFO    Thread-92 :40834 [upload_job.py:push():143] Uploaded file /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/config.yaml
+2022-11-14 08:12:41,060 INFO    Thread-93 :40834 [upload_job.py:push():143] Uploaded file /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/output.log
+2022-11-14 08:12:41,224 INFO    Thread-90 :40834 [upload_job.py:push():143] Uploaded file /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/files/conda-environment.yaml
+2022-11-14 08:12:41,425 INFO    Thread-84 :40834 [sender.py:transition_state():463] send defer: 9
+2022-11-14 08:12:41,426 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 08:12:41,426 INFO    HandlerThread:40834 [handler.py:handle_request_defer():162] handle defer: 9
+2022-11-14 08:12:41,426 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: defer
+2022-11-14 08:12:41,427 INFO    SenderThread:40834 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-11-14 08:12:41,427 INFO    SenderThread:40834 [file_pusher.py:join():173] waiting for file pusher
+2022-11-14 08:12:41,427 INFO    SenderThread:40834 [sender.py:transition_state():463] send defer: 10
+2022-11-14 08:12:41,428 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 08:12:41,428 INFO    HandlerThread:40834 [handler.py:handle_request_defer():162] handle defer: 10
+2022-11-14 08:12:41,428 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: defer
+2022-11-14 08:12:41,429 INFO    SenderThread:40834 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-11-14 08:12:41,524 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: keepalive
+2022-11-14 08:12:41,722 INFO    SenderThread:40834 [sender.py:transition_state():463] send defer: 11
+2022-11-14 08:12:41,723 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 08:12:41,723 INFO    HandlerThread:40834 [handler.py:handle_request_defer():162] handle defer: 11
+2022-11-14 08:12:41,724 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: defer
+2022-11-14 08:12:41,724 INFO    SenderThread:40834 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-11-14 08:12:41,724 INFO    SenderThread:40834 [sender.py:transition_state():463] send defer: 12
+2022-11-14 08:12:41,726 DEBUG   SenderThread:40834 [sender.py:send():303] send: final
+2022-11-14 08:12:41,726 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: defer
+2022-11-14 08:12:41,727 DEBUG   SenderThread:40834 [sender.py:send():303] send: footer
+2022-11-14 08:12:41,727 INFO    HandlerThread:40834 [handler.py:handle_request_defer():162] handle defer: 12
+2022-11-14 08:12:41,727 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: defer
+2022-11-14 08:12:41,728 INFO    SenderThread:40834 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-11-14 08:12:41,729 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: poll_exit
+2022-11-14 08:12:41,730 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: poll_exit
+2022-11-14 08:12:41,731 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: server_info
+2022-11-14 08:12:41,732 DEBUG   SenderThread:40834 [sender.py:send_request():317] send_request: server_info
+2022-11-14 08:12:41,737 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: get_summary
+2022-11-14 08:12:41,738 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: sampled_history
+2022-11-14 08:12:42,486 INFO    MainThread:40834 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-11-14 08:12:42,487 INFO    MainThread:40834 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-11-14 08:12:42,487 INFO    MainThread:40834 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-11-14 08:12:42,488 DEBUG   HandlerThread:40834 [handler.py:handle_request():139] handle_request: shutdown
+2022-11-14 08:12:42,489 INFO    HandlerThread:40834 [handler.py:finish():814] shutting down handler
+2022-11-14 08:12:42,726 INFO    WriterThread:40834 [datastore.py:close():279] close: /home2/aswin/gae/new_graph/wandb/run-20221114_081227-2je85v0j/run-2je85v0j.wandb
+2022-11-14 08:12:43,486 INFO    SenderThread:40834 [sender.py:finish():1331] shutting down sender
+2022-11-14 08:12:43,486 INFO    SenderThread:40834 [file_pusher.py:finish():168] shutting down file pusher
+2022-11-14 08:12:43,486 INFO    SenderThread:40834 [file_pusher.py:join():173] waiting for file pusher
+2022-11-14 08:12:43,493 INFO    MainThread:40834 [internal.py:handle_exit():78] Internal process exited
+2022-11-14 08:12:43,493 INFO    MainThread:40834 [internal.py:handle_exit():78] Internal process exited
+2022-11-14 08:12:43,493 INFO    MainThread:40834 [internal.py:handle_exit():78] Internal process exited
+2022-11-14 08:12:43,494 INFO    MainThread:40834 [internal.py:handle_exit():78] Internal process exited
+2022-11-14 08:12:43,494 INFO    MainThread:40834 [internal.py:handle_exit():78] Internal process exited
